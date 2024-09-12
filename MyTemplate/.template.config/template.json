@@ -1,0 +1,38 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Talles Valiatti",
+    "classifications": [ "Web", "WebAPI", "C#"],
+    "identity": "my-template-web-api",
+    "name": "My web api template",
+    "shortName": "my-template",
+    "tags": {
+      "language": "C#",
+      "type": "project"
+    },
+    "symbols": {
+      "ProjectName": {
+          "type": "parameter",
+          "datatype": "string",
+          "description": "Rename namespaces",
+          "replaces": "MyTemplate",
+          "FileRename": "MyTemplate",
+          "defaultValue": "MyTemplate"
+      },
+      "MyKeyConfig": {
+        "type": "parameter",
+        "datatype": "string",
+        "description": "Rename config",
+        "replaces": "MyKeyConfig",
+        "defaultValue": "123456789"
+    }
+    },
+    "sources": [
+      {
+        "modifiers": [
+          {
+            "exclude": ["**/.git/**"]
+          }
+        ]
+      }
+    ]
+}
