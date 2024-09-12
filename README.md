@@ -1,0 +1,2 @@
+# Creating .NET Application Templates
+This repository provides a comprehensive guide on creating custom .NET application templates to streamline project setup. It covers the essential steps needed to define project structures, configure settings, and customize namespaces and file names to match specific project requirements. The repository focuses on building reusable templates tailored to various development scenarios, enabling developers to save time on repetitive setup tasks and concentrate on writing quality code.
